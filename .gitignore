@@ -1,8 +1,10 @@
-# env file 
+# Environment variables
+.env
+.env.*
+!.env.example
 
-.evn
-.env.local
-
-# venv
-venv/
+# Python
+__pycache__/
+*.pyc
 .venv/
+venv/
